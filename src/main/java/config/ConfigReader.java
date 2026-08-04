@@ -16,7 +16,7 @@ public class ConfigReader {
             fis.close();
         } catch (IOException e) {
             throw new RuntimeException("Failed to load config.properties file", e);
-        }   
+        }
     }
 
     public String getProperty(String key) {
